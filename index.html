@@ -68,9 +68,9 @@
 
   <div class="container mx-auto" style="padding-top: 100px; padding-bottom: 100px">
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-center">
         <div class="col">
-          <p><img src="img/Vector.png"> Ravel</p>
+          <p><img src="img/Vector.png "> Ravel</p>
           <h3 class="fw-bold" style="margin-top: 20px;"> Built by travelers, <br>for travelers</h3>
           <p class="fs-5" style="margin-top: 10px; margin-right: 100px;">There is information overload and it takes an
             enormous amount of time to plan a unique trip</p>
@@ -80,7 +80,7 @@
 
         </div>
 
-        <div class="col"><img class="end-50" src="img/img-about.png" alt=""></div>
+        <div class="col"><img class="end-50" src="img/img-about.png" alt="about" width="500"> </div>
       </div>
     </div>
   </div>
@@ -184,8 +184,8 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
 
-            <div class="row">
-              <div class="col-6 " style=";">
+            <div class="row justify-content-center">
+              <div class="col-5 " style=";">
                 <div class="card " style="width: 18rem;">
                   <img src="img/Rectangle 77.png " class="card-img-top img-fluid" alt="...">
                   <div class="card-body">
@@ -195,7 +195,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6">
+              <div class="col-5">
                 <div class="card " style="width: 18rem;">
                   <img src="img/Rectangle 79.png" class="card-img-top img-fluid" alt="...">
                   <div class="card-body">
@@ -244,17 +244,19 @@
 
         <div class="col">
 
-          <div style="background-color:white; padding: 20px; width: ;">
-            <div class="row">
-              <div class="col">
-                <form action="" method="post"><img src="img/Vector2.png"><input type="email" placeholder="email"
-                    style="margin-left: 20px;">
-                </form>
-              </div>
-
-              <div class="col"><a class="btn btn-primary btn-sm" href="#" role="button"
-                  style="border-radius: 100px; background-color: #ef7a27">Subscribe</a></div>
+          <form class="row g-3 ">
+            <div class="col-auto">
+              <label for="staticEmail2" class="visually-hidden">Email</label>
+              <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
             </div>
+            <div class="col-auto">
+              <label for="inputPassword2" class="visually-hidden">Password</label>
+              <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary mb-3">Subscribe</button>
+            </div>
+          </form>
 
           </div>
         </div>
@@ -387,19 +389,18 @@
         </div>
         <!-- Grid container -->
 
-        <!-- Copyright -->
         
-          
-        
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2021 Copyright:
-          <a class="text-dark" href="https://mdbootstrap.com/">mr.good</a>
-        </div>
-        <!-- Copyright -->
       </footer>
     </div>
   </div>
 
+  <!-- Copyright -->
+                         
+  <div class="text-center p-3  " style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">mr.good</a>
+  </div>
+  <!-- Copyright -->
   <!-- tutup footer -->
 
   <!-- Optional JavaScript; choose one of the two! -->
